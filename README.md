@@ -1,4 +1,4 @@
-# vkdonate
+# vkdonate - Easy Async library for working with service vkdonate
 
 #### Installing (Установка):
 ```sh
