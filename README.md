@@ -11,7 +11,7 @@ from vkdonate.donate import Donate
 import asyncio
 
 
-donate = Donate("Token Here")
+donate = Donate("Token Here") # https://vkdonate.ru/help#api
 
 async def app():
     result = await donate.get(city=20)
