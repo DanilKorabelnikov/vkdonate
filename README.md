@@ -17,5 +17,5 @@ async def app():
     result = await donate.get(city=20)
     print(result)
 
-asyncio.run(app())
+asyncio.get_event_loop().run_until_complete(app())
 ```
