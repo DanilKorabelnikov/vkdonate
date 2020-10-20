@@ -14,7 +14,7 @@ import asyncio
 donate = Donate("Token Here") # https://vkdonate.ru/help#api
 
 async def app():
-    result = await donate.get(city=20)
+    result = await donate.get(count=20)
     print(result)
 
 asyncio.get_event_loop().run_until_complete(app())
