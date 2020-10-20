@@ -7,4 +7,4 @@ class DonatesModel(BaseModel):
 
 class Model(BaseModel):
     count: int = None
-    donates: List[DonatesModel] = None
+    donates: List[dict] = None
