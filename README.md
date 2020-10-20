@@ -7,7 +7,7 @@ pip install -U https://github.com/DanilKorabelnikov/vkdonate/archive/master.zip
 
 #### Example (Пример):
 ```python
-from vkdonate.donate import Donate
+from aiovkdonate import Donate
 import asyncio
 
 

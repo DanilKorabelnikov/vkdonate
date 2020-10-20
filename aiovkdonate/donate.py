@@ -1,13 +1,10 @@
-from vkdonate.const import const
-from vkdonate.http.http import request
-from vkdonate.types.models import Model
+from aiovkdonate.const import const
+from aiovkdonate.http.http import request
+from aiovkdonate.types.models import Model
 
 
 class Donate:
 	def __init__(self, token: str):
-		"""
-		:param token: your api-key https://home.openweathermap.org/api_keys
-		"""
 		self._token = token
 
 	async def get(self, count: int) -> Model:
